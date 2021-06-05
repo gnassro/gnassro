@@ -6,6 +6,10 @@
 [![Linkedin: gnassro](https://img.shields.io/badge/-gnassro?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gnassro/)](https://www.linkedin.com/in/gnassro/)
 [![GitHub gnassro](https://img.shields.io/github/followers/gnassro?label=follow&style=social)](https://github.com/gnassro)
 
+![Gnassro's github stats](https://github-readme-stats.vercel.app/api?username=gnassro&layout=compact&show_icons=true&theme=radical) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gnassro&layout=compact&show_icons=true&theme=radical)
+
+
+
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
 ---
 ```PHP
