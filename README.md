@@ -23,8 +23,8 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'Aromair',
-                'position' => 'Web and mobile developer'         
+                'company' => 'Freelance',
+                'position' => 'Systems and Networks Administrator, Web and Mobile Developer'         
             ]
         ];
     }
