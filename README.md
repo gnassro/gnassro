@@ -1,5 +1,5 @@
 <h2> Hi, I'm Nasreddine Elghozi! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
-<p><em>Web and Mobile Developer at <a href="https://arom-air.com">Arom Air </a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+<p><em>System and Network Administrator, Web and Mobile Developer<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
 [![Twitter: gnassro](https://img.shields.io/twitter/follow/gnassro?style=social)](https://twitter.com/gnassro)
