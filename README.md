@@ -23,8 +23,8 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'Freelance',
-                'position' => 'Systems and Networks Administrator, Web and Mobile Developer (Flutter)'         
+                'company' => 'Nda consulting',
+                'position' => 'Junior Flutter Developer'         
             ]
         ];
     }
