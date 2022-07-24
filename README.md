@@ -1,5 +1,5 @@
 <h2> Hi, I'm Nasreddine Elghozi! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
-<p><em>Systems and Networks Administrator, Web and Mobile Developer (Flutter)<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+<p><em>Junior Flutter Developer<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
 [![Twitter: gnassro](https://img.shields.io/twitter/follow/gnassro?style=social)](https://twitter.com/gnassro)
