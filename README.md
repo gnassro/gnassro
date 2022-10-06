@@ -6,7 +6,7 @@
 [![Linkedin: gnassro](https://img.shields.io/badge/-gnassro?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gnassro/)](https://www.linkedin.com/in/gnassro/)
 [![GitHub gnassro](https://img.shields.io/github/followers/gnassro?label=follow&style=social)](https://github.com/gnassro)
 
-![Gnassro's github stats](https://github-readme-stats.vercel.app/api?username=gnassro&layout=compact&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gnassro&layout=compact&show_icons=true&theme=radical&hide_border=true&langs_count=8&hide=swift,kotlin,Ruby,Objective-C)
+![Gnassro's github stats](https://github-readme-stats-gnassro.vercel.app/api?username=gnassro&layout=compact&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true) ![Top Langs](https://github-readme-stats-gnassro.vercel.app/api/top-langs/?username=gnassro&layout=compact&show_icons=true&theme=radical&hide_border=true&langs_count=8&hide=swift,kotlin,Ruby,Objective-C)
 
 
 
