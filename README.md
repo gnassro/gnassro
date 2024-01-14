@@ -1,5 +1,5 @@
 <h2> Hi, I'm Nasreddine Elghozi! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
-<p><em>Junior Flutter Developer<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+<p><em>Senior Flutter Developer<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
 [![Twitter: gnassro](https://img.shields.io/twitter/follow/gnassro?style=social)](https://twitter.com/gnassro)
@@ -12,43 +12,64 @@
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
 ---
-```PHP
-<?php
+```Dart
+enum SkillLevel {
+  beginner,
+  intermediate,
+  advanced,
+  expert,
+}
 
-namespace gnassro;
+mixin AdditionalFunctionality {
+  List<String> hobbies();
+}
 
-class About extends Me
-{
-    public function getCurrentWorkplace(): array
-    {
-        return [
-            'workplace' => [
-                'company' => 'Nda consulting',
-                'position' => 'Junior Flutter Developer'         
-            ]
-        ];
-    }
+class AboutMe with AdditionalFunctionality {
+  final String currentPosition;
+  final Map<String, SkillLevel> skills;
+  final List<String> hobbies;
 
-    public function getDailyKnowledge(): array
-    {
-        return [
-            Php::class,
-            Javascript::class,
-            Dart::class,
-            Flutter::class,
-            Java::class,
-            Python::class,
-            Linux::class,
-            Ubuntu::class,
-            Shell::class,
-            Networking::class,
-        ];
-    }
+  AboutMe({
+    required this.currentPosition,
+    required this.skills,
+    required this.hobbies
+  });
 
-    public function getFutureGoal(): string
-    {
-        return 'To create my own public project';
-    }
+  void knowMe() {
+    print("Current Position: $currentPosition");
+    print("Skills:");
+    skills.forEach((skill, level) {
+      print("$skill: $level");
+    });
+    print(hobbies());
+  }
+
+  @override
+  List<String> hobbies() {
+    return hobbies;
+  }
+}
+
+void main() {
+  AboutMe aboutMe = AboutMe(
+    currentPosition: "Senior Flutter Developer",
+    skills:  {
+        "Flutter": SkillLevel.advanced,
+        "Dart": SkillLevel.advanced,
+        "Ubuntu": SkillLevel.advanced,
+        "Shell": SkillLevel.advanced,
+        "Networking": SkillLevel.intermediate,
+        "Java": SkillLevel.intermediate,
+        "PHP": SkillLevel.intermediate
+    },
+    hobbies: [
+        "Football",
+        "Chess",
+        "Watching The lord of the rings every month"
+    ]
+  );
+
+  aboutMe.knowMe();
 }
 ```
 ---
