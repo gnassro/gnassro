@@ -21,7 +21,7 @@ enum SkillLevel {
 }
 
 mixin AdditionalFunctionality {
-  List<String> hobbies();
+  List<String> hobbiesList();
 }
 
 class AboutMe with AdditionalFunctionality {
@@ -41,11 +41,12 @@ class AboutMe with AdditionalFunctionality {
     skills.forEach((skill, level) {
       print("$skill: $level");
     });
-    print(hobbies());
+    print("My hobbies:");
+    print(hobbiesList());
   }
 
   @override
-  List<String> hobbies() {
+  List<String> hobbiesList() {
     return hobbies;
   }
 }
